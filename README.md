@@ -12,4 +12,4 @@ bash <(curl -Lfo- https://raw.githubusercontent.com/limilco/check_network/main/u
 
 **Buy Me a Coffee :**
 
-- Tron USDT (TRC20): `TXncxkvhkDWGts487Pjqq1qT9JmwRUz8CC`
+- Tron USDT (TRC20): `TDncy4ESqxsjL2fTv2fFauAnwah7EERrSt`

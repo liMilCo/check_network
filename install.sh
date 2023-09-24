@@ -10,6 +10,5 @@ chmod +x /home/check_network
 
 echo "#Network Restart" > /home/check_network.log
 
-
 echo "*/2 * * * * root  /home/check_network >> /home/check_network.log 2>&1" > /etc/cron.d/check_network_or_rst
 echo "0 * * * *   root  systemctl restart systemd-networkd  > /dev/null" >> /etc/cron.d/check_network_or_rst

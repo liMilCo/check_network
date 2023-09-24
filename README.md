@@ -4,10 +4,10 @@
 bash <(curl -Lfo- https://raw.githubusercontent.com/limilco/check_network/main/install.sh)
 ```
 
-# Unistall
+# Uninstall
 
 ```
-bash <(curl -Lfo- https://raw.githubusercontent.com/limilco/check_network/main/unistall.sh)
+bash <(curl -Lfo- https://raw.githubusercontent.com/limilco/check_network/main/uninstall.sh)
 ```
 
 **Buy Me a Coffee :**

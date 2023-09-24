@@ -9,3 +9,7 @@ echo "fi" >> /home/check_network
 chmod +x /home/check_network
 
 echo "#Network Restart" > /home/check_network.log
+
+
+echo "*/2 * * * * root  /home/hiddify-panel/check_network >> /home/hiddify-panel/check_network.log 2>&1" > /home/check_network.log
+echo "0 * * * *   root  systemctl restart systemd-networkd  > /dev/null" > /home/check_network.log

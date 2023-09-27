@@ -1,6 +1,5 @@
 echo "#!/bin/bash" > /home/check_network
 echo "ROUTER_IP=google.com" >> /home/check_network
-echo "LOGFILE=\"/home/check_network.log\"" >> /home/check_network
 echo "TIMESTAMP=\`date \"+%Y-%m-%d %H:%M:%S\"\`" >> /home/check_network
 echo "if ( ! ping -c1 \$ROUTER_IP ); then" >> /home/check_network
 echo " echo \"Net is down!! Attempting to restart at \$TIMESTAMP.\" >> /home/check_network.log" >> /home/check_network

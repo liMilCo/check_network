@@ -48,7 +48,7 @@ chmod +x /home/check_network
 echo "#Network Restart" > /home/check_network.log
 ```
 برای اینکه این فایل در دوره های مشخص مثلا هر 2 دقیقه یک بار اجرا شود، با کد زیر را اجرا کنید؛
-با این کار در شاخه (/etc/cron.d) یک فایل با نام (check_network_or_rst) میسازیم و متن زیر را در آن وارد میکنیم.
+با این کار در شاخه (/etc/cron.d) یک فایل با نام (check_network_or_rst) میسازیم و متن (*/2 * * * * root  /home/check_network) را در آن وارد میکنیم.
 ```
 echo "*/2 * * * * root  /home/check_network" > /etc/cron.d/check_network_or_rst
 ```

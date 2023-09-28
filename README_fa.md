@@ -14,6 +14,8 @@ bash <(curl -Lfo- https://raw.githubusercontent.com/limilco/check_network/main/i
 bash <(curl -Lfo- https://raw.githubusercontent.com/limilco/check_network/main/uninstall.sh)
 ```
 
+<hr />
+
 
 ## ساخت برنامه به صورت دستی
 

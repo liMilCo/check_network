@@ -1,14 +1,14 @@
 [English](README.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-## راهنما
+# برنامه برسی شبکه
 این پکیج هر 2 دقیقه یک بار از سایت گوگل پینگ میگیره و اگر نتونست به شبکه دسترسی داشته باشه یا شبکه مشکلی داشته باشه شبکه رو ریست میکنه.
 
-# Install
+## ساخت برنامه فقط با یک دستور: 
 
 ```
 bash <(curl -Lfo- https://raw.githubusercontent.com/limilco/check_network/main/install.sh)
 ```
 
-# Uninstall
+## حذف برنامه
 
 ```
 bash <(curl -Lfo- https://raw.githubusercontent.com/limilco/check_network/main/uninstall.sh)

@@ -1,9 +1,10 @@
-[English](README.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[فارسی **![Lang_farsi](https://user-images.githubusercontent.com/125398461/234186932-52f1fa82-52c6-417f-8b37-08fe9250a55f.png) &nbsp;فارسی**](README.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
-## راهنما
-این پکیج هر 2 دقیقه یک بار از سایت گوگل پینگ میگیره و اگر نتونست به شبکه دسترسی داشته باشه یا شبکه مشکلی داشته باشه شبکه رو ریست میکنه.
+## َAbout
+This script ping (google.com) every 2 minute if failed, will restart the network service.
+
 
   
 
